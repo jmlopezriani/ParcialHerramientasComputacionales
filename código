@@ -1,0 +1,16 @@
+def leerImprimir():
+    ced = int(input("Ingrese su número de cédula:\n")) #Recibe número entero representando cédula del cliente.
+    rol = input("Es estudiante o profesor?\n") #Recibe String que define el rol del cliente.
+    pro = input("Ingrese el producto que desea comprar:\n") #Recibe String que representa el cógido del producto.
+    pre = float(input("Ingrese el precio del producto:\n")) #Recibe número real que representa el precio del producto
+    num = int(input("Cantidad del producto para llevar:\n")) #Recibe entero que define la cantidad comprada del producto.
+    print("El " + rol + " con cédula "+ str(ced) +" debe pagar $"+str(cafeteria(rol,pre,num))+" por el producto " + pro) #Imprime resultado de la función.
+    
+def cafeteria(rol, pre, num): #Recibe un String, un float y un int respectivamente, devuelve un float con el precio
+    precio = 0
+    if rol.casefold() == "estudiante":
+        precio = pre * num * 0.5
+    elif rol.casefold() == "profesor":
+        precio = pre * num * 0.8
+    return precio
+leerImprimir()
