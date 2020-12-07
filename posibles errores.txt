@@ -1,0 +1,18 @@
+1. Los errores que se pueden presentar en este código son ingresos erróneos por parte del usuario.
+   Los posibles errores son los siguientes:
+
+   -Que ingrese algo que no sea un número entero para la variable ced
+   -Que el valor ingresado de rol sea diferente a "estudiante" o "profesor" (no es sensible a mayúsculas)
+   -Que el precio ingresado no sea un float o un int
+   -Que el valor de num ingresado no sea un número entero
+   
+   Otros errores que emanan de errores previamente mencionados son:
+
+   -que se corra el if de cafeteria() con un valor que no sea string.
+   -que se corra el if de cafeteria() con un calor diferente a "estudiante" o "profesor"
+   -que se corra cafeteria cuando pre o num sean un tipo de variable diferente a int o float
+
+2. Para evitar estos errores, usaríamos un while loop con una estructura try-except. Dentro de esta ingresaríamos los
+   input(), evitando que el usuario ingrese un tipo de entrada erroneo. También encapsularíamos el input() de rol en 
+   un while loop con un condicional, dejando que el loop se quiebre cuando se ingrese "estudiante" o "profesor" sin 
+   importar las mayusculas.
