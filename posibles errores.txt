@@ -5,14 +5,18 @@
    -Que el valor ingresado de rol sea diferente a "estudiante" o "profesor" (no es sensible a mayúsculas)
    -Que el precio ingresado no sea un float o un int
    -Que el valor de num ingresado no sea un número entero
+   -Que el usuario ingrese un número negativo para la variable pre o num
    
    Otros errores que emanan de errores previamente mencionados son:
 
    -que se corra el if de cafeteria() con un valor que no sea string.
    -que se corra el if de cafeteria() con un calor diferente a "estudiante" o "profesor"
    -que se corra cafeteria cuando pre o num sean un tipo de variable diferente a int o float
+   -Que se corra el método que calcula el total con valores negativos en las variables num o pre
+   
+   
 
 2. Para evitar estos errores, usaríamos un while loop con una estructura try-except. Dentro de esta ingresaríamos los
-   input(), evitando que el usuario ingrese un tipo de entrada erroneo. También encapsularíamos el input() de rol en 
-   un while loop con un condicional, dejando que el loop se quiebre cuando se ingrese "estudiante" o "profesor" sin 
-   importar las mayusculas.
+   input(), evitando que el usuario ingrese un tipo de entrada erroneo o un valor inválido como un número negativo 
+   para las variables que son numéricas. También encapsularíamos el input() de rol en un while loop con un 
+   condicional, dejando que el loop se quiebre cuando se ingrese "estudiante" o "profesor" sin importar las mayusculas.
