@@ -25,4 +25,15 @@ El archivo de nombre “README.md” contiene un instructivo para el usuario, co
 El archivo “código” contiene el programa, el cual podrá usar el usuario tras leer el archivo “README.md”  que explica su uso.
 El archivo “posibles errores.txt” enlista los factores que pueden ocasionar un malfuncionamiento del programa y añade una posible solución para estos.
 
+
+
 	
+Autores: Jose Miguel López, Michael Jonathan Fox.
+Responsable: Claudia Ovideo Santacruz.
+Organización: Pontificia Universidad Javeriana Cali.
+Categoría: Aplicación.
+Palabras clave: Compra, Cafetería, Precio, Productos.
+Versión: 1.0
+Fecha: 04/12/2020
+Estadísticas: 16 líneas, 1.03KB
+Edición: 1 revisión.
